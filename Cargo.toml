@@ -1,8 +1,12 @@
 [package]
-name = "rust-geohash-tools"
+name = "geohash-tools"
 version = "0.0.0"
+authors = ["Jan Klinge <jan@klydra.dev>"]
+description = "A collection of functions to manipulate GeoHashes"
+documentation = "https://docs.rs/geohash-tools/"
+repository = "https://github.com/ummo-oss/rust-geohash-tools"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+path = "src/lib.rs"
 
 [dependencies]
+phf = "0.11.1"

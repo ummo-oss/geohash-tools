@@ -1,14 +1,10 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+#![doc(html_root_url = "https://docs.rs/geohash-tools/")]
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+//! # geohash-tools
+//!
+//! geohash-tools is a collection of functions for manipulating GeoHashes in Rust.
+//! You can find more about geohash algorithm on [Wikipedia](https://en.wikipedia.org/wiki/Geohash)
+//!
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+mod geohash;
+
