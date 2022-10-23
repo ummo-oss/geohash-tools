@@ -13,7 +13,7 @@ A collection of functions to manipulate GeoHashes.
 
 ## License
 
-Licensed under the MIT License ([LICENSE-MIT](LICENSE.md) or http://opensource.org/licenses/MIT)
+Licensed under the MIT License ([LICENSE](LICENSE.md) or http://opensource.org/licenses/MIT)
 
 ## Origin
 
