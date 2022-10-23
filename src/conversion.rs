@@ -1,6 +1,8 @@
 use std::io::Error;
 use crate::{RUNE_CHAR_INDEX, RUNE_LEN};
 
+/// Convert a GeoHash to an int with precision `precision`.<br>
+/// The int range is based on the number of possible combinations of characters from the GeoHash rune.
 pub fn geohash_to_int(geohash: String) -> Result<i32, Error> {
     /* Since there are no optional arguments in Rust right now, use 0 to ignore precision */
 
