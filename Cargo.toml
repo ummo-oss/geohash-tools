@@ -7,6 +7,7 @@ documentation = "https://docs.rs/geohash-tools/"
 repository = "https://github.com/ummo-oss/rust-geohash-tools"
 edition = "2021"
 path = "src/lib.rs"
+license = "MIT"
 
 [dependencies]
 phf = "0.11.1"
