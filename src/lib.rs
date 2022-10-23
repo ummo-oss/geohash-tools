@@ -7,8 +7,11 @@
 //!
 
 mod geohash;
+mod conversion;
 
 pub use geohash::RUNE_CHAR_INDEX;
 pub use geohash::RUNE_INDEX_CHAR;
 pub use geohash::RUNE_LEN;
 pub use geohash::RUNE_INDEX_LEN;
+
+pub use conversion::geohash_to_int;
