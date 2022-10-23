@@ -8,9 +8,7 @@ A collection of functions to manipulate GeoHashes.
 ## Features
 
 - [x] General GeoHash runes
-- [x] General static / constant accessors calculated at compile-time
-<br>
-<br>
+- [x] General static / constant accessors calculated at compile-time<br><br>
 - [x] GeoHash to Integer → Integer to GeoHash
 
 ## License
