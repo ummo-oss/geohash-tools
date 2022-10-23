@@ -22,6 +22,8 @@ pub const RUNE_LEN: usize = 32;
 /// Length of rune of possible GeoHash characters -1 to represent the largest index in the rune.
 pub const RUNE_INDEX_LEN: usize = 31;
 
+/// Number of possible GeoHashes for a given precision.
+/// All common ranges (0 through 12) are calculated at compile time and can be accessed by using the precision as the index.
 pub static GEOHASH_ID_RANGE: [i32; 13] = [
     0,
     geohash_id_range(1),
@@ -38,6 +40,7 @@ pub static GEOHASH_ID_RANGE: [i32; 13] = [
     geohash_id_range(12),
 ];
 
-const fn geohash_id_range(precision: u32) -> i32 {
+/// Calculate the number of possible GeoHashes for a given precision.
+pub const fn geohash_id_range(precision: u32) -> i32 {
     RUNE_LEN.pow(precision) as i32
 }
