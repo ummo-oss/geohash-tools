@@ -15,3 +15,4 @@ pub use geohash::RUNE_LEN;
 pub use geohash::RUNE_INDEX_LEN;
 
 pub use conversion::geohash_to_int;
+pub use conversion::int_to_geohash;
