@@ -1,13 +1,13 @@
 [package]
 name = "geohash-tools"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Jan Klinge <jan@klydra.dev>"]
 description = "A collection of functions to manipulate GeoHashes"
 documentation = "https://docs.rs/geohash-tools/"
 repository = "https://github.com/ummo-oss/rust-geohash-tools"
+license = "MIT"
 edition = "2021"
 path = "src/lib.rs"
-license = "MIT"
 
 [dependencies]
 phf = { version = "0.11.1", features = ["macros"] }
